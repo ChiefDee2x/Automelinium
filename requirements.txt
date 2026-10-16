@@ -1,0 +1,11 @@
+# Core GUI & Image Processing
+Pillow>=10.0.0
+
+# Model Context Protocol (MCP) Server
+mcp>=1.0.0
+
+# SSL Certificate validation
+certifi>=2024.0.0
+
+# macOS Native Cocoa Integration (Optional - for High-Resolution Dock Icon)
+pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'
